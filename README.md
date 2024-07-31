@@ -23,11 +23,15 @@ Clone the repository or download the app files to your local machine. Open the `
 
 Alternatively, you can run the app using the command:
 
-```R
-shiny::runApp("path/to/your/app")
+```bash
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load("shiny","tidyverse","colorspace","shinythemes","readxl", "DT","MASS","boot","caret","modelr")
+runGitHub(
+  'Assocs',
+  username = 'statisticsguru1',
+  ref = "main"
+)
 ```
-
-Replace `"path/to/your/app"` with the actual path to the app directory.
 
 ## Using the Application
 
