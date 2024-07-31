@@ -14,7 +14,7 @@ To run the application, follow these steps:
 Ensure you have R and RStudio installed. Install the required packages by running the following command in R:
 
 ```R
-install.packages(c("shiny", "tidyverse", "caret", "pROC", "boot", "shinythemes", "DT"))
+install.packages(c("shiny","tidyverse","colorspace","shinythemes","readxl", "DT","MASS","boot","caret","modelr"))
 ```
 
 ### Running the App
